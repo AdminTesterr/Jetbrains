@@ -1,38 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>JetBrains Server - Overworld</title>
-
-    <style>
-        body {
-            margin: 0;
-            background: url('https://i.imgur.com/VV0o4nI.png') center/cover fixed;
-            font-family: "Minecraftia", monospace;
-            color: #fff;
-            text-align: center;
-            padding: 60px;
-        }
-
-        .box {
-            background: rgba(20, 20, 20, 0.85);
-            border: 3px solid #71ff59;
-            border-radius: 12px;
-            box-shadow: 0 0 15px #000;
-            padding: 30px;
-            width: 80%;
-            margin: auto;
-        }
-
-        h1 { text-shadow: 2px 2px #000; }
-        p { font-size: 1.2rem; }
-    </style>
+    <title>JetBrains SMP – Season 5</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body class="overworld">
 
-<body>
-    <div class="box">
-        <h1>🌿 Overworld – JetBrains Server 🌿</h1>
-        <p>Welcome to the main world page.</p>
+    <div class="container">
+        <h1>JETBRAINS SMP – SEASON 6</h1>
+        <p class="tag">The Fun Begins here.....</p>
+
+        <h2>Server IP</h2>
+        <div class="ip-box">
+            <span id="server-ip">jetbrains.smp.mcserver</span>
+            <button onclick="copyIP()">Copy</button>
+        </div>
+
+        <p class="desc">
+            JetBrains SMP Season 5 is a fresh Minecraft world full of lore, quests, 
+            new updates, clans, builds and endless adventure. Join your friends and 
+            rise to power!
+        </p>
+
+        <div class="nav">
+            <a href="nether.html">🔥 Nether</a>
+            <a href="end.html">💜 The End</a>
+        </div>
     </div>
+
+<script src="script.js"></script>
 </body>
 </html>
