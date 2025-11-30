@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.overworld {
+    background: url('https://i.imgur.com/9OQmj6o.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.nether {
+    background: url('https://i.imgur.com/I0UPeNg.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.end {
+    background: url('https://i.imgur.com/VUwH7fS.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    padding: 40px;
+    backdrop-filter: blur(4px);
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.desc {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.ip-box {
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.ip-box button {
+    margin-left: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+}
+
+.nav a {
+    background: rgba(0,0,0,0.5);
+    padding: 10px 20px;
+    margin: 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
